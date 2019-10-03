@@ -153,7 +153,7 @@ so they can be pasted into a program in this language directly. Text comments, i
 If you don't need text comments in the answer, you can eliminate them
 using a special option `?Q`:
 ```lua
-    $ curl cht.sh/lua/table+keys?Q
+    $ curl "cht.sh/lua/table+keys?Q"
     local keyset={}
     local n=0
 
@@ -167,11 +167,11 @@ And if you don't need syntax highlighting, switch it off using `?T`.
 You can combine the options together:
 
 ```
-    curl cht.sh/go/reverse+a+list?Q
-    curl cht.sh/python/random+list+elements?Q
-    curl cht.sh/js/parse+json?Q
-    curl cht.sh/lua/merge+tables?QT
-    curl cht.sh/clojure/variadic+function?QT
+    curl "cht.sh/go/reverse+a+list?Q"
+    curl "cht.sh/python/random+list+elements?Q"
+    curl "cht.sh/js/parse+json?Q"
+    curl "cht.sh/lua/merge+tables?QT"
+    curl "cht.sh/clojure/variadic+function?QT"
 ```
 
 Full list of all options described below and in `/:help`.
